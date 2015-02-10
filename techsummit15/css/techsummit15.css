@@ -7,8 +7,12 @@
 
 a {
   color: #023E8B;
-  text-decoration: underline;
+  padding: 2px 1px;
+  text-decoration: underline; 
+  -webkit-transition:background-color .2s linear;
+  transition:background-color .2s linear; }
   a:hover, a:focus {
     color: #FFF; 
     background-color: #023E8B;
+    border-radius: 2px;
     text-decoration: none; }
