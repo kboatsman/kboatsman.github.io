@@ -1,0 +1,14 @@
+.panel {
+  border-width: 2px;
+  background: #FAFAFA;
+  color: #000000; }
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+    color: #000000; }
+
+a {
+  color: #023E8B;
+  text-decoration: underline;
+  a:hover, a:focus {
+    color: #FFF; 
+    background-color: #023E8B;
+    text-decoration: none; }
