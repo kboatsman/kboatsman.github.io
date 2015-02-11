@@ -53,7 +53,7 @@
 					<div id="content-block">
 						<div class="clearfix">
 							
-							<p>See history come alive! Come take Aggiepedia's tour of the Texas A&M campus.</p>
+							<p>See history come alive! Come take Aggiepedia's tour of the Texas A&amp;M campus.</p>
 							<h2>Submit Your Request for a Tour</h2>
 							<form>
 							<p>First name</p>
@@ -64,19 +64,42 @@
 							
 							<p>Phone <em style="color: #F00;">optional</em></p>
 							<input class="span5" type="text" name="phone">
-							<p>Format: 555-555-5555</p>
 							
 							<p>Email</p>
 							<input class="span5" type="text" name="email">
 							
-							<p>Message</p>
+                            <fieldset>
+                            <!-- 
+                            <legend>Current status:</legend> 
+                            -->
+							<p>Current status:</p>
+                                                        
+                            <input style="margin-right: 5px;" type="radio" name="status" id="prospective" value="prospective">
+                            <label style="display: inline;" for="prospective">Prospective student</label><br>
+                                
+                            <input style="margin-right: 5px;" type="radio" name="status" id="current" value="currrent">
+                            <label style="display: inline;" for="current">Current student</label><br>
+                                
+                            <input style="margin-right: 5px;" type="radio" name="status" id="former" value="former">
+                            <label style="display: inline;" for="former">Former student</label><br>
+                                
+                            <input style="margin-right: 5px;" type="radio" name="status" id="general" value="general">
+                            <label style="display: inline;" for="general">General public</label><br><br>
+                            </fieldset>
+                                
+                            <p>Message</p>
 							<textarea class="span5" maxlength="10000" cols="50" rows="10" name="message"></textarea>
+                            
+                            <br>
+                            <input style="margin-right: 5px;" type="checkbox" id="newsletter" name="newsletter" value="yes"></input>
+                            <label style="display: inline;" for="newsletter">I would like to receive updates from Aggiepedia.</label>
+                            <br>
 													
-							<input type="submit" value="Submit Request">
+							<br>
+                            <input type="submit" value="Submit Request">
 							
 							<div class="ex1">
-							<input style="margin-right: 5px;" type="checkbox" id="newsletter" name="newsletter" value="yes"></input>
-							<label style="display: inline;" for="newsletter">I would like to receive updates from Aggiepedia.</label>
+							
 							</div>
 							
 							</form>
