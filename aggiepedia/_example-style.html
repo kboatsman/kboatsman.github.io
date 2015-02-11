@@ -1,0 +1,135 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Style - Accessibility Examples</title>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+
+<link href="css/default.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/global.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/print.css" media="print" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+
+.ex1 {color: #F00;}
+.ex2a {color: #EEE; background-color: #7C7C7C; padding: 1em;}
+.ex2b {font-size: 1.5em; font-weight: bold; color: #EEE; background-color: #7C7C7C; padding: 1em;}
+.ex3 {font-family: impact; font-size: 120%;}
+.ex4 {line-height: 1; text-align: justify;}
+
+</style>
+
+<script type="text/javascript" src="js/jquery.min.js?v=1.8.2"></script>
+<script type="text/javascript" src="js/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="js/tamustyle.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="page" class="container page">
+	<div id="header">
+		<div id="header_left">
+			
+			<a href="index.html" title="Home" rel="home" id="logo"><img src="images/logo-aggiepedia.png" alt="Home"/></a>
+		</div>
+	</div>
+	
+	
+<div id="secondary">
+	<!-- This is where the main content of the page goes-->
+	<div id="main" class="clearfix">
+		<div id="content">									
+			<div id="content-header">
+				<h1 class="title">Style</h1>				
+			</div> <!-- /#content-header -->
+			<div id="content-area" class="row">
+				<div id="content-wrapper" class="span9  with-right-sidebar">
+					<div id="content-block">
+						<div class="clearfix">
+							
+							<h2>Example 1</h2>
+							<p>Required form fields are in <span class="ex1">red</span>.</p>
+								<form>
+									<label for="firstname">First Name</label>
+									<input type="text" name="firstname" id="firstname">
+									
+									<label for="lastname">Last Name</label>
+									<input type="text" name="lastname" id="lastname">
+									
+									<label for="email"><span style="color: #F00;">Email</span></label>
+									<input type="text" name="email" id="email">
+									
+									<label for="department">Department</label>
+									<input type="text" name="department" id="department">
+								</form>
+							
+							<h2>Example 2</h2>
+							<p class="ex2a">Aggiepedia Department</p>
+							<p class="ex2b">Aggiepedia Department</p>
+							
+							<h2>Example 3</h2>
+							<img src="images/movie-poster.jpg" style="float: right; margin-left: 20px;" />
+							<p class="ex3">We've Never Been Licked (1943) is a World War II propaganda film produced by Walter Wanger and released by United Artists. Parts of the movie were shot on location at the Texas A&M University campus. Released in the UK under the title, Texas to Tokyo; re-released in the US as Fighting Command.</p>
+														
+							<h2 style="clear: both;">Example 4</h2>
+							<p class="ex4">Army brat Brad Craig enters A&M with a chip on his shoulder which upperclassmen quickly knock off. Once adjusted, Craig falls in love with a professor's beautiful daughter, only to find she is in love with his roommate. In the meantime, Craig unwittingly associates with Japanese spies (one played by William Frawley of I Love Lucy) bent on stealing a secret chemical compound developed in the A&M Chemistry Department. Craig is drummed out of the Corps for being a suspected accomplice to the spies, but he then bravely infiltrates the spy network to sabotage the Japanese war effort. Many A&M traditions are referenced in this film.</p>
+							
+						</div> <!-- /block-inner /block -->
+					</div>
+				</div>
+				
+				<!-- This is where sidebar content goes, the left division line only extends the length of the content -->
+				<div id="sidebar-right-wrapper" class="span3">
+					<div id="sidebar-right">
+						<div>
+							<div class="clearfix">
+								<div class="block-inner">
+									<h2 class="block-title">Quick Links</h2>
+									<div class="content" >
+										<ul class="menu">
+											<li class="leaf"><a href="#">Test Link 1</a></li>
+											<li class="leaf"><a href="#">Test Link 2</a></li>
+											<li class="leaf"><a href="#">Test Link 3</a></li>
+											<li class="leaf"><a href="#">Test Link 4</a></li>
+											<li class="leaf"><a href="#">Test Link 5</a></li>
+										</ul>
+									</div>
+								</div>
+							</div> <!-- /block-inner /block -->
+						</div>
+					</div>
+				</div>
+				
+			</div>	
+		</div>
+	</div>
+</div>	
+<div id="footer">
+	<div class="region region-footer">
+		<div class=" clearfix">
+			<div class="block-inner">
+				<div class="content" >
+					<p>
+						<!-- Make sure these links go to the right places -->
+						<a href="http://www.tamu.edu/" target="_blank" title="Texas A&amp;M University">Texas A&amp;M University</a> &#8226; 
+						<a href="">Site Policies</a> &#8226; 
+						<a href="">Webmaster</a> &#8226; 
+						<a href="">Site Map</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /block-inner /block -->
+	</div>
+</div>
+</div>
+</body>
+</html>
