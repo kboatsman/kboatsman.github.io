@@ -42,7 +42,7 @@
         <p>Bad or missing alt text is still one of the most common accessibility issues. Always include the <code>alt</code> attribute for images and choose a value that makes sense based on the context of the image. An <a href="http://www.4syllables.com.au/2010/12/text-alternatives-decision-tree/">alt text decision tree</a> can help you figure that out.</p>
           
         <h2>Forms</h2>
-        <p>Forms without labels associated with input fields are very difficult (or impossible) for some assistive technology users to navigate. Related form elements (e.g., radio buttons) should also be grouped with <code>fieldset</code> and <code>legend</code></p>
+        <p>Forms without labels associated with input fields are very difficult (or impossible) for some assistive technology users to navigate. Related form elements (e.g., radio buttons) should also be grouped with <code>fieldset</code> and <code>legend</code>.</p>
         
         <h2>Color</h2>
         <p>Color contrast is a common issue, especially for A&amp;M color palettes. Poor contrast can make it very difficult for low vision users to see your content. It's also important not to use color - by itself - to convey important information (e.g., "required fields are in red" and link text), since not all users will be able to perceive color and/or color differences.</p>  
@@ -54,7 +54,7 @@
         <p>Everything that can be done with a mouse and keyboard should be accessible with a keyboard, alone (Tab, Shift + Tab, arrows, Enter/Space). That means using focus indicators (e.g., <code>a:focus</code>) so it's easy to tell what elements have keyboard focus. And focus order should be logical, which often means stripping out any <code>tabindex</code> values greater than 0.</p>  
           
         <h2>ARIA</h2>
-        <p>ARIA defines HTML attributes to convey correct role, state, properties and value. It fills in some of the gaps assistive technology users might experience with native HTML, especially with custom widgets. However, ARIA only changes how assistive technology (more specifically, screen readers) interpret content. You'll still need to handle keyboard access, visibility, properties, etc.</p>
+        <p>ARIA defines HTML attributes to convey correct role, state, properties, and values. It fills in some of the gaps assistive technology users might experience with native HTML, especially with custom widgets. However, ARIA only changes how assistive technology (more specifically, screen readers) interpret content. You'll still need to handle keyboard access, visibility, properties, etc.</p>
           
           <p>Don't use ARIA when native HTML elements and/or attributes already have your requirements built-in. Refer to <a href="http://www.w3.org/WAI/PF/aria-practices/#aria_ex_header">ARIA design patterns</a> when you're building custom widgets.</p>
 
